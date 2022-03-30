@@ -1,0 +1,24 @@
+{
+  "name": "pokeapirepo",
+  "version": "1.0.0",
+  "description": "App to interact with the PokeAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdolghi/pokeapp.git"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "express"
+  ],
+  "author": "Vlad Dolghi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdolghi/pokeapp/issues"
+  },
+  "homepage": "https://github.com/vdolghi/pokeapp#readme"
+}
