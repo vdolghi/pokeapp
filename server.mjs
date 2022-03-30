@@ -29,7 +29,7 @@ server.get('/', (req, res) => {
     res.json({"message": "Welcome to the PokeAPI!"});
 });
 
-let PORT = 8080;
+let PORT = process.env.PORT || 8080;
 
 server.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
