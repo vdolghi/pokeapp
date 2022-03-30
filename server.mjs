@@ -6,7 +6,7 @@ import helmet from "helmet";
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(`mongodb://localhost:27017/pokedb`, {
+        await mongoose.connect(`mongodb+srv://pokereader:pokereader@mongocluster.kbfar.mongodb.net/pokedb?retryWrites=true&w=majority`, {
             useNewUrlParser: true,
         });
 
